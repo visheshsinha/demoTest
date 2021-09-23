@@ -3,6 +3,8 @@ bin
 __pycache__
 .history
 .hypothesis/
-build/
+build/deployments
+build/interfaces
+build/contracts/dependencies
 reports/
 .pytest_cache

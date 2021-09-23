@@ -1,9 +1,9 @@
-from brownie import demoTest, network, config, accounts
+from brownie import accountFactory, demoTest, network, config, accounts
 from scripts.funcs import get_account
 
 def deploy_demoTest():
     account = get_account()
-    
+
     priceFeed_address = config["networks"][network.show_active()][
         "eth_usd_price_feed"
     ]
@@ -13,6 +13,10 @@ def deploy_demoTest():
         {"from": account},
         publish_source=config["networks"][network.show_active()].get("verify"),
     )
+    
+    account_factory = accountFactory[-1]
+    account_factory.addAccount(demo_test, {"from": account})
+
     return demo_test
 
 def main():

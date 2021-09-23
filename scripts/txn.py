@@ -5,7 +5,7 @@ def pay():
     demo_test = demoTest[-1]
     account = get_account()
     payment = demo_test.getAmount()
-    print(f"The current entry fee is {payment}")
+    print(f"The Final Payment  is {payment}")
     demo_test.paymentFinal({"from": account, "value": payment})
 
 def withdraw():
@@ -14,7 +14,7 @@ def withdraw():
     demo_test.withdraw({"from": account})
 
 def main():
-    choice = input("Enter P: Pay \nEnter W: Withdraw \nChoice:")
+    choice = input("Enter P: Pay \nEnter W: Withdraw \nChoice: ")
     if choice is "P":
         pay()
     else:
