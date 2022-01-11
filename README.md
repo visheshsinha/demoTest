@@ -35,3 +35,12 @@ Payment Function can be called by anyone over the network but the assets in the 
 #### Testing
 
 Deployment and all the functions were tested using [Brownie](https://eth-brownie.readthedocs.io/en/stable/) on Ganache CLI & Rinkeby Testnet and are working properly. 
+
+
+## Application Screenshots
+
+![s1](https://github.com/gitanshwadhwa28/POS-API/blob/main/readme-screenshots/s1.png?raw=true)
+![s2](https://github.com/gitanshwadhwa28/POS-API/blob/main/readme-screenshots/s2.png?raw=true)
+![s3](https://github.com/gitanshwadhwa28/POS-API/blob/main/readme-screenshots/s3.png?raw=true)
+![s4](https://github.com/gitanshwadhwa28/POS-API/blob/main/readme-screenshots/s4.png?raw=true)
+![s5](https://github.com/gitanshwadhwa28/POS-API/blob/main/readme-screenshots/s5.png?raw=true)
