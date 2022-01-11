@@ -4,7 +4,9 @@
   <h2 align="center">Team Pegasas</h2>
 </p>
 
-Website Live at [PEGASAS POS](https://pos-api-dh.herokuapp.com/)  [Github Repo for Live Deployment](https://github.com/gitanshwadhwa28/POS-API)  :octocat:
+Website Live at : [PEGASAS POS](https://pos-api-dh.herokuapp.com/)  
+[Github Repo for Live Deployment](https://github.com/gitanshwadhwa28/POS-API)  :octocat:    
+[Devfolio Project Write-Up](https://devfolio.co/submissions/pegasas-payment-gateway-63fa) :computer:
 
 ## Payment Track SmartContract
 
